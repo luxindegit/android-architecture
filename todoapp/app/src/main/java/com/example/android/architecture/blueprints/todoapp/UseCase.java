@@ -17,6 +17,7 @@
 package com.example.android.architecture.blueprints.todoapp;
 
 /**
+ * 业务层的入口
  * Use cases are the entry points to the domain layer.
  *
  * @param <Q> the request type
