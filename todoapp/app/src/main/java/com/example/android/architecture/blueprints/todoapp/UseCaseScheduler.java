@@ -17,6 +17,7 @@
 package com.example.android.architecture.blueprints.todoapp;
 
 /**
+ * 定义UseCase的使用，主要定义了对UseCase请求的处理方法，以及当请求完成后通知成功或者出错。
  * Interface for schedulers, see {@link UseCaseThreadPoolScheduler}.
  */
 public interface UseCaseScheduler {

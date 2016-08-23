@@ -25,6 +25,8 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Marks a task as completed.
+ * CompleteTask职责是对数据层的数据进行操作。为了实现业务层和数据层的隔离，必须实现统一接口
+ * UseCase.
  */
 public class CompleteTask extends UseCase<CompleteTask.RequestValues, CompleteTask.ResponseValue> {
 

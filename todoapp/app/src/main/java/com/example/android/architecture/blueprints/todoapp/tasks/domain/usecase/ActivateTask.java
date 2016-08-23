@@ -27,7 +27,6 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * Marks a task as active (not completed yet).
  */
 public class ActivateTask extends UseCase<ActivateTask.RequestValues, ActivateTask.ResponseValue> {
-
     private final TasksRepository mTasksRepository;
 
     public ActivateTask(@NonNull TasksRepository tasksRepository) {

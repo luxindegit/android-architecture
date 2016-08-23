@@ -24,6 +24,7 @@ import java.util.UUID;
 
 /**
  * Immutable model class for a Task.
+ * 代表数据层
  */
 public final class Task {
 

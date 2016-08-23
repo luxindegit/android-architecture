@@ -17,7 +17,7 @@
 package com.example.android.architecture.blueprints.todoapp;
 
 /**
- * 业务层的入口
+ * 定义业务层和数据层交互的接口，主要定义了请求类型，返回值类型，出错和成功的回调接口，以及处理方法
  * Use cases are the entry points to the domain layer.
  *
  * @param <Q> the request type

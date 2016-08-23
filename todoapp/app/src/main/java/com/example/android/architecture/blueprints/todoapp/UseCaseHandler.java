@@ -20,6 +20,7 @@ package com.example.android.architecture.blueprints.todoapp;
 import com.example.android.architecture.blueprints.todoapp.util.EspressoIdlingResource;
 
 /**
+ *使用UseCaseScheduler执行UseCase
  * Runs {@link UseCase}s using a {@link UseCaseScheduler}.
  */
 public class UseCaseHandler {
@@ -45,7 +46,6 @@ public class UseCaseHandler {
         mUseCaseScheduler.execute(new Runnable() {
             @Override
             public void run() {
-
                 useCase.run();
                 // This callback may be called twice, once for the cache and once for loading
                 // the data from the server API, so we check before decrementing, otherwise

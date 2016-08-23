@@ -24,6 +24,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * UseCaseScheduler的实现类
  * Executes asynchronous tasks using a {@link ThreadPoolExecutor}.
  * <p>
  * See also {@link Executors} for a list of factory methods to create common
