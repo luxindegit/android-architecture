@@ -50,12 +50,10 @@ public class CompleteTask extends UseCase<CompleteTask.RequestValues, CompleteTa
         public RequestValues(@NonNull String completedTask) {
             mCompletedTask = checkNotNull(completedTask, "completedTask cannot be null!");
         }
-
         public String getCompletedTask() {
             return mCompletedTask;
         }
     }
-
     public static final class ResponseValue implements UseCase.ResponseValue {
     }
 }

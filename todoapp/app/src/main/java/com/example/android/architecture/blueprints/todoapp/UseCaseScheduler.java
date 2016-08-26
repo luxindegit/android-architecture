@@ -24,9 +24,11 @@ public interface UseCaseScheduler {
 
     void execute(Runnable runnable);
 
+    //结果回掉
     <V extends UseCase.ResponseValue> void notifyResponse(final V response,
-            final UseCase.UseCaseCallback<V> useCaseCallback);
+                                                          final UseCase.UseCaseCallback<V> useCaseCallback);
 
+    //出错回调
     <V extends UseCase.ResponseValue> void onError(
             final UseCase.UseCaseCallback<V> useCaseCallback);
 }
